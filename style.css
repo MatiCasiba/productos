@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(52, 62, 85);
+    color: white;
+    
+}
+
+h1{
+    background-color: white;
+    text-align: center;
+    color: rgb(93, 110, 148);
+}
+
+.color-1{
+    color: bisque;
+
+}
+.color-2{
+    color: rgb(127, 145, 177);
+}
+.color-3{
+    color: rgb(200, 212, 212);
+}
+.color-4{
+    color: rgb(162, 157, 157);
+}
+.color-5{
+    color: rgb(239, 229, 216);
+}
