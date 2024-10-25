@@ -92,3 +92,35 @@ Entonces una vez hechas las clases, les daré un grosor, un estilo de borde y el
 }
 ```
 * Nota: 4px (el grosor del borde) ridge(el estilo del borde) color(el color del borde).
+
+## Fuentes y diseños en imágen
+En los elementos h1, h2 y p, les daré una fuente para cada elemento, ajustando el tamaño de letra, estilos y grosor, incluso transformaré el texto de los elementos h2 en mayúculas:
+```sh
+h1{
+    font-family: Impact, Charcoal, sans-serif; # la tipografía
+    font-size: 95px; #tamaño de letra
+}
+h2{
+    font-size: 25px;
+    font-family: Arial, Gadget, sans-serif;
+    font-weight: 900; #grosor de la letra
+    text-transform: uppercase; # texto en mayúscula, las palabras en minúscula que se encuentren en este elemento, pasarán a ser mayúsculas
+    font-style: italic; # un estilo para el texto
+}
+p{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+```
+* Nota: en el elemento p, el text-align: justify, me servirá para ver el texto ocupando toda la pantalla (por así decirlo), sin dejar espacios en los laterales.
+
+### Diseño en la imagen
+A las imágenes, les daré un ancho y un márgen izquierdo:
+```sh
+img{
+    width: 400px; # ancho
+    margin-left: 40px; #margen izquierdo, esto le genera un espacio a la izquierda en las imágenes
+}
+```
+
