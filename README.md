@@ -62,3 +62,33 @@ Esto me permitirá en css darles color a cada uno:
 }
 ```
 
+## Colocando imágenes y dándoles bordes
+Para agregrar imagenes y con bórdes, primero en el index.html, a los elementos img le voy a agregar clases con distintos valores, esto me permite darles a cada borde colores distintos:
+```sh
+<img class="borde-1" src="public/image/aspiradoras.webp" alt="imagen de aspiradora">
+<img class="borde-2" src="public/image/celulares.webp" alt="imagen de celulares">
+<img class="borde-3" src="public/image/consolas.webp" alt="imagen de consola">
+<img class="borde-4" src="public/image/home-theaters.webp" alt="imagen de home theater">
+<img class="borde-5" src="public/image/televisores.webp" alt="imagen de televisor">
+```
+* Nota: dentro del src="" se encuentra la dirección en donde están las imágenes, se encuentran en una carpeta image, que está dentro de otra carpeta llamada public. En el index.html verás, ejemplo: /image/consolas.webp, esto lo realicé así por recomendación de la consola.
+
+Entonces una vez hechas las clases, les daré un grosor, un estilo de borde y el mismo color de los subtitulos que tenga cada elemento htmml:
+```sh
+.borde-1{
+    border: 4px ridge  bisque;
+}
+.borde-2{
+    border: 4px ridge rgb(127, 145, 177);
+}
+.borde-3{
+    border: 4px ridge rgb(200, 212, 212);
+}
+.borde-4{
+    border: 4px ridge rgb(162, 157, 157);
+}
+.borde-5{
+    border: 4px ridge rgb(239, 229, 216);
+}
+```
+* Nota: 4px (el grosor del borde) ridge(el estilo del borde) color(el color del borde).

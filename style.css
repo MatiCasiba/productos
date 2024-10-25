@@ -10,6 +10,22 @@ h1{
     color: rgb(93, 110, 148);
 }
 
+.borde-1{
+    border: 4px ridge  bisque;
+}
+.borde-2{
+    border: 4px ridge rgb(127, 145, 177);
+}
+.borde-3{
+    border: 4px ridge rgb(200, 212, 212);
+}
+.borde-4{
+    border: 4px ridge rgb(162, 157, 157);
+}
+.borde-5{
+    border: 4px ridge rgb(239, 229, 216);
+}
+
 .color-1{
     color: bisque;
 
