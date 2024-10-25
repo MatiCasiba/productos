@@ -124,3 +124,14 @@ img{
 }
 ```
 
+## Un cambio de color en las clases color-2 y border-2
+Se actualizaron los colores de estas clases:
+```sh
+.borde-2{
+    border: 4px ridge rgb(179, 199, 237);
+}
+
+.color-2{
+    color: rgb(179, 199, 237);
+}
+```

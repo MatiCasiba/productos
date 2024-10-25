@@ -34,7 +34,7 @@ img{
     border: 4px ridge  bisque;
 }
 .borde-2{
-    border: 4px ridge rgb(127, 145, 177);
+    border: 4px ridge rgb(179, 199, 237);
 }
 .borde-3{
     border: 4px ridge rgb(200, 212, 212);
@@ -51,7 +51,7 @@ img{
 
 }
 .color-2{
-    color: rgb(127, 145, 177);
+    color: rgb(179, 199, 237);
 }
 .color-3{
     color: rgb(200, 212, 212);
